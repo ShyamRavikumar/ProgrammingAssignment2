@@ -1,7 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+#An R program to cache inverse of a matrix for increased performance
+#during repeated use.
 
 
 #Returns -> A list containing 4 functions set,get,setinv,getinv
@@ -28,9 +26,6 @@ makeCacheMatrix <- function(x = matrix()) {
     
     list(set=set, get=get, setinv=setinv, getinv=getinv)
 }
-
-
-## Write a short comment describing this function
 
 
 
